@@ -171,7 +171,7 @@
       position: relative;
       z-index: 1;
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 14px;
       margin-top: 28px;
     }
@@ -188,6 +188,7 @@
       font-size: 28px;
       font-weight: 900;
       letter-spacing: -0.04em;
+      word-break: break-word;
     }
 
     .stat-label {
@@ -196,6 +197,7 @@
       color: var(--muted);
       font-size: 13px;
       font-weight: 700;
+      line-height: 1.35;
     }
 
     .toolbar {
@@ -722,14 +724,22 @@
           <span class="stat-value" id="totalEvidence">0</span>
           <span class="stat-label">evidências</span>
         </div>
+
+        <div class="stat">
+          <span class="stat-value" id="friendlyFireLegendCount">0</span>
+          <span class="stat-label" id="friendlyFireLegendLabel">lenda do fogo amigo</span>
+        </div>
+
         <div class="stat">
           <span class="stat-value" id="totalPlayers">0</span>
           <span class="stat-label">jogadores citados</span>
         </div>
+
         <div class="stat">
           <span class="stat-value" id="topOffender">-</span>
           <span class="stat-label">mais recorrente</span>
         </div>
+
         <div class="stat">
           <span class="stat-value" id="lastCase">-</span>
           <span class="stat-label">último registro</span>
@@ -849,6 +859,8 @@
 
     const els = {
       totalEvidence: document.querySelector("#totalEvidence"),
+      friendlyFireLegendCount: document.querySelector("#friendlyFireLegendCount"),
+      friendlyFireLegendLabel: document.querySelector("#friendlyFireLegendLabel"),
       totalPlayers: document.querySelector("#totalPlayers"),
       topOffender: document.querySelector("#topOffender"),
       lastCase: document.querySelector("#lastCase"),
@@ -925,11 +937,17 @@
       const playerCounts = countBy(state.all, item => item.playerName);
       const uniquePlayers = new Set(state.all.map(item => item.playerName)).size;
       const latest = [...state.all].sort((a, b) => b.dateMs - a.dateMs)[0];
+      const friendlyFireLegend = playerCounts[0];
 
       els.totalEvidence.textContent = state.all.length;
       els.totalPlayers.textContent = uniquePlayers;
-      els.topOffender.textContent = playerCounts[0] ? playerCounts[0][0] : "-";
+      els.topOffender.textContent = friendlyFireLegend ? friendlyFireLegend[0] : "-";
       els.lastCase.textContent = latest ? formatDate(latest.date).split(",")[0] : "-";
+
+      els.friendlyFireLegendCount.textContent = friendlyFireLegend ? friendlyFireLegend[1] : "0";
+      els.friendlyFireLegendLabel.textContent = friendlyFireLegend
+        ? `lenda do fogo amigo: ${friendlyFireLegend[0]}`
+        : "lenda do fogo amigo";
     }
 
     function updateFilters() {
