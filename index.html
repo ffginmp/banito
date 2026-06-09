@@ -935,19 +935,22 @@
 
     function updateStats() {
       const playerCounts = countBy(state.all, item => item.playerName);
+      const screenshotByCounts = countBy(state.all, item => item.screenshotBy);
       const uniquePlayers = new Set(state.all.map(item => item.playerName)).size;
       const latest = [...state.all].sort((a, b) => b.dateMs - a.dateMs)[0];
-      const friendlyFireLegend = playerCounts[0];
-
+    
+      const topOffender = playerCounts[0];
+      const friendlyFireLegend = screenshotByCounts[0];
+    
       els.totalEvidence.textContent = state.all.length;
       els.totalPlayers.textContent = uniquePlayers;
-      els.topOffender.textContent = friendlyFireLegend ? friendlyFireLegend[0] : "-";
+      els.topOffender.textContent = topOffender ? topOffender[0] : "-";
       els.lastCase.textContent = latest ? formatDate(latest.date).split(",")[0] : "-";
-
+    
       els.friendlyFireLegendCount.textContent = friendlyFireLegend ? friendlyFireLegend[1] : "0";
       els.friendlyFireLegendLabel.textContent = friendlyFireLegend
-        ? `lenda do fogo amigo: ${friendlyFireLegend[0]}`
-        : "lenda do fogo amigo";
+        ? `Lenda do fogo amigo: ${friendlyFireLegend[0]}`
+        : "Lenda do fogo amigo";
     }
 
     function updateFilters() {
