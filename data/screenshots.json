@@ -1,100 +1,180 @@
 [
-    {
-        "imageUrl":  "./imgs/1031892.5999999046_20260607034005_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/id/Feyke",
-        "playerName":  "natan",
-        "isManito": false,        
-        "sex": "MALE",
-        "timestamp":  "2026-06-09T03:31:06.7707827Z",
-        "screenshotBy":  "Felixupeta"
-    },
-    {
-        "imageUrl":  "./imgs/1073523.0999999046_20260604012558_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/profiles/76561199466858362/",
-        "playerName":  "Luketi",
-        "isManito": true,
-        "sex": "MALE",        
-        "timestamp":  "2026-06-09T03:31:06.7707827Z",
-        "screenshotBy":  "Felixupeta"
-    },
-    {
-        "imageUrl":  "./imgs/1079927_20260606034238_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/profiles/76561198067398350",
-        "playerName":  "Nazutti",
-        "isManito": false,
-        "sex": "MALE",        
-        "timestamp":  "2026-06-09T03:31:06.7707827Z",
-        "screenshotBy":  "Felixupeta"
-    },
-    {
-        "imageUrl":  "./imgs/6984060.1_20260607215741_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/profiles/76561198446216382/",
-        "playerName":  "▲El niño▲",
-        "isManito": true,
-        "sex": "MALE",        
-        "timestamp":  "2026-06-09T03:31:06.7707827Z",
-        "screenshotBy":  "Glaubosta"
-    },
-    {
-        "imageUrl":  "./imgs/7004516.5_20260608231033_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/profiles/76561199527964641/",
-        "playerName":  "[PTTS]Tiowill_021 SKINS",
-        "isManito": false,
-        "sex": "MALE",        
-        "timestamp":  "2026-06-09T03:31:06.7707827Z",
-        "screenshotBy":  "Glaubosta"
-    },
-    {
-        "imageUrl":  "./imgs/7048136.5_20260607225436_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/profiles/76561198831818809/",
-        "playerName":  "Butcher",
-        "isManito": false,
-        "sex": "MALE",        
-        "timestamp":  "2026-06-09T03:31:06.7707827Z",
-        "screenshotBy":  "Glaubosta"
-    },
-    {
-        "imageUrl": "./imgs/12273003.099999905_20260610023039_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/profiles/76561198955620122/",
-        "playerName":  "Mira que te consumo hermano",
-        "isManito": true,
-        "sex": "MALE",
-        "csStats": "1,100",
-        "assists": ["Felixupeta"],
-        "timestamp":  "2026-06-10T05:31:06.7707827Z",
-        "screenshotBy":  "Glaubosta"
-    },
-    {
-        "imageUrl": "./imgs/20260610232454_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/profiles/76561199015819948/",
-        "playerName":  "PATROA",
-        "isManito": false,
-        "sex": "FEMALE",
-        "csStats": "1,320",
-        "assists": ["Glaubosta"],
-        "timestamp":  "2026-06-10T21:31:06.7707827Z",
-        "screenshotBy":  "Felixupeta"
-    },
-    {
-        "imageUrl": "./imgs/20260610233435_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/id/MRGGameplay/",
-        "playerName":  "PATRÃO",
-        "isManito": false,
-        "sex": "MALE",
-        "csStats": "1,096",
-        "assists": ["Felixupeta"],
-        "timestamp":  "2026-06-10T21:41:06.7707827Z",
-        "screenshotBy":  "Glaubosta"
-    },
-    {
-        "imageUrl": "./imgs/20260610233435_1.jpg",
-        "steamProfileUrl":  "https://steamcommunity.com/id/MRGGameplay/",
-        "playerName":  "PATRÃO",
-        "isManito": false,
-        "sex": "MALE",
-        "csStats": "1,096",
-        "assists": ["Felixupeta"],
-        "timestamp":  "2026-06-10T21:41:06.7707827Z",
-        "screenshotBy":  "Arrombeu"
-    }    
+  {
+    "timestamp": "2026-06-09T03:31:06.7707827Z",
+    "imageUrl": "./imgs/1031892.5999999046_20260607034005_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/id/Feyke",
+    "playerName": "natan",
+    "isManito": false,
+    "sex": "MALE",
+    "screenshotBy": "Felixupeta",
+    "csStats": "3,899",
+    "map": "de_mirage",
+    "provokers": [
+      "Felixupeta"
+    ],
+    "assistedBy": [
+      "Glaubosta"
+    ],
+    "bannedBy": [
+      "Felixupeta"
+    ]
+  },
+  {
+    "timestamp": "2026-06-09T03:31:06.7707827Z",
+    "imageUrl": "./imgs/1073523.0999999046_20260604012558_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/profiles/76561199466858362/",
+    "playerName": "Luketi",
+    "map": "de_dust2",
+    "isManito": true,
+    "sex": "MALE",
+    "screenshotBy": "Felixupeta",
+    "provokers": [
+      "Felixupeta"
+    ],
+    "assistedBy": [
+      "Glaubosta"
+    ],
+    "bannedBy": [
+      "Felixupeta"
+    ]
+  },
+  {
+    "timestamp": "2026-06-09T03:31:06.7707827Z",
+    "imageUrl": "./imgs/1079927_20260606034238_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/profiles/76561198067398350",
+    "playerName": "Nazutti",
+    "map": "de_dust2",
+    "isManito": false,
+    "sex": "MALE",
+    "screenshotBy": "Felixupeta",
+    "provokers": [
+      "Felixupeta"
+    ],
+    "assistedBy": [
+      "Glaubosta"
+    ],
+    "bannedBy": [
+      "Felixupeta"
+    ]
+  },
+  {
+    "timestamp": "2026-06-09T03:31:06.7707827Z",
+    "imageUrl": "./imgs/6984060.1_20260607215741_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/profiles/76561198446216382/",
+    "playerName": "▲El niño▲",
+    "map": "de_nuke",
+    "isManito": true,
+    "sex": "MALE",
+    "screenshotBy": "Glaubosta",
+    "provokers": [
+      "Glaubosta"
+    ],
+    "assistedBy": [
+      "Felixupeta"
+    ],
+    "bannedBy": [
+      "Glaubosta"
+    ]
+  },
+  {
+    "imageUrl": "./imgs/7004516.5_20260608231033_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/profiles/76561199527964641/",
+    "playerName": "[PTTS]Tiowill_021 SKINS",
+    "map": "de_dust2",
+    "isManito": false,
+    "sex": "MALE",
+    "timestamp": "2026-06-09T03:31:06.7707827Z",
+    "screenshotBy": "Glaubosta",
+    "provokers": [
+      "Glaubosta"
+    ],
+    "assistedBy": [
+      "Felixupeta"
+    ],
+    "bannedBy": [
+      "Glaubosta"
+    ]
+  },
+  {
+    "timestamp": "2026-06-09T03:31:06.7707827Z",
+    "imageUrl": "./imgs/7048136.5_20260607225436_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/profiles/76561198831818809/",
+    "playerName": "Butcher",
+    "map": "de_dust2",
+    "isManito": false,
+    "sex": "MALE",
+    "screenshotBy": "Glaubosta",
+    "provokers": [
+      "Glaubosta"
+    ],
+    "assistedBy": [
+      "Felixupeta"
+    ],
+    "bannedBy": [
+      "Glaubosta"
+    ]
+  },
+  {
+    "timestamp": "2026-06-10T05:31:06.7707827Z",
+    "imageUrl": "./imgs/12273003.099999905_20260610023039_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/profiles/76561198955620122/",
+    "playerName": "Mira que te consumo hermano",
+    "map": "de_dust2",
+    "isManito": true,
+    "sex": "MALE",
+    "csStats": "1,100",
+    "screenshotBy": "Glaubosta",
+    "provokers": [
+      "Glaubosta",
+      "Felixupeta"
+    ],
+    "assistedBy": [
+      "Felixupeta"
+    ],
+    "bannedBy": [
+      "Glaubosta"
+    ]
+  },
+  {
+    "timestamp": "2026-06-10T21:31:06.7707827Z",
+    "imageUrl": "./imgs/20260610232454_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/profiles/76561199015819948/",
+    "playerName": "PATROA",
+    "map": "de_dust2",
+    "isManito": false,
+    "sex": "FEMALE",
+    "csStats": "1,320",
+    "screenshotBy": "Glaubosta",
+    "provokers": [
+      "Glaubosta",
+      "Felixupeta"
+    ],
+    "assistedBy": [
+      "Glaubosta"
+    ],
+    "bannedBy": [
+      "Felixupeta"
+    ]
+  },
+  {
+    "timestamp": "2026-06-10T21:41:06.7707827Z",
+    "imageUrl": "./imgs/20260610233435_1.jpg",
+    "steamProfileUrl": "https://steamcommunity.com/id/MRGGameplay/",
+    "playerName": "PATRÃO",
+    "map": "de_dust2",
+    "isManito": false,
+    "sex": "MALE",
+    "csStats": "1,096",
+    "screenshotBy": "Glaubosta",
+    "provokers": [
+      "Arrombeu"
+    ],
+    "assistedBy": [
+      "Glaubosta",
+      "Felixupeta"
+    ],
+    "bannedBy": [
+      "Glaubosta"
+    ]
+  }
 ]
