@@ -3,6 +3,8 @@
         "imageUrl":  "./imgs/1031892.5999999046_20260607034005_1.jpg",
         "steamProfileUrl":  "https://steamcommunity.com/id/Feyke",
         "playerName":  "natan",
+        "isManito": false,        
+        "sex": "MALE",
         "timestamp":  "2026-06-09T03:31:06.7707827Z",
         "screenshotBy":  "Felixupeta"
     },
@@ -10,6 +12,8 @@
         "imageUrl":  "./imgs/1073523.0999999046_20260604012558_1.jpg",
         "steamProfileUrl":  "https://steamcommunity.com/profiles/76561199466858362/",
         "playerName":  "Luketi",
+        "isManito": true,
+        "sex": "MALE",        
         "timestamp":  "2026-06-09T03:31:06.7707827Z",
         "screenshotBy":  "Felixupeta"
     },
@@ -17,6 +21,8 @@
         "imageUrl":  "./imgs/1079927_20260606034238_1.jpg",
         "steamProfileUrl":  "https://steamcommunity.com/profiles/76561198067398350",
         "playerName":  "Nazutti",
+        "isManito": false,
+        "sex": "MALE",        
         "timestamp":  "2026-06-09T03:31:06.7707827Z",
         "screenshotBy":  "Felixupeta"
     },
@@ -24,6 +30,8 @@
         "imageUrl":  "./imgs/6984060.1_20260607215741_1.jpg",
         "steamProfileUrl":  "https://steamcommunity.com/profiles/76561198446216382/",
         "playerName":  "▲El niño▲",
+        "isManito": true,
+        "sex": "MALE",        
         "timestamp":  "2026-06-09T03:31:06.7707827Z",
         "screenshotBy":  "Glaubosta"
     },
@@ -31,6 +39,8 @@
         "imageUrl":  "./imgs/7004516.5_20260608231033_1.jpg",
         "steamProfileUrl":  "https://steamcommunity.com/profiles/76561199527964641/",
         "playerName":  "[PTTS]Tiowill_021 SKINS",
+        "isManito": false,
+        "sex": "MALE",        
         "timestamp":  "2026-06-09T03:31:06.7707827Z",
         "screenshotBy":  "Glaubosta"
     },
@@ -38,7 +48,20 @@
         "imageUrl":  "./imgs/7048136.5_20260607225436_1.jpg",
         "steamProfileUrl":  "https://steamcommunity.com/profiles/76561198831818809/",
         "playerName":  "Butcher",
+        "isManito": false,
+        "sex": "MALE",        
         "timestamp":  "2026-06-09T03:31:06.7707827Z",
+        "screenshotBy":  "Glaubosta"
+    },
+    {
+        "imageUrl": "./imgs/12273003.099999905_20260610023039_1.jpg",
+        "steamProfileUrl":  "https://steamcommunity.com/profiles/76561198955620122/",
+        "playerName":  "https://steamcommunity.com/profiles/76561198955620122/",
+        "isManito": true,
+        "sex": "MALE",
+        "csStats": "1,100",
+        "assists": ["Felixupeta"],
+        "timestamp":  "2026-06-10T05:31:06.7707827Z",
         "screenshotBy":  "Glaubosta"
     }
 ]
